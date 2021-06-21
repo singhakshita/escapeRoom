@@ -334,12 +334,12 @@
   width: 50px;
 }
 .end a {
-  background-color: rgba(0, 255, 255, 0.021);
+  background-color: rgba(0, 255, 255, 0);
   position: absolute;
-  height: 500px;
-  width: 200px;
-  right: 5%;
-  top: 5%;
+  height: 600px;
+  width: 250px;
+  right: 35%;
+  top: 10%;
 }
 @media (min-width: 60rem) {
   .up {

@@ -316,7 +316,6 @@ document.querySelector(".modal__button").addEventListener("click", () => {
     }, 2000);
     setTimeout(() => {
       main.style.backgroundImage = "url('./mainAsset/shelfRoom.png')";
-
       tableContentClear();
       mapClear();
       arthaClear();
@@ -335,7 +334,8 @@ clock.addEventListener("click", () => {
   }, 4000);
   setTimeout(() => {
     main.style.backgroundImage = "url('./mainAsset/shelfTunnel.jpg')";
-  }, 8000);
+    document.querySelector(".end").classList.remove("hidden");
+  }, 5000);
 });
 
 up.addEventListener("click", () => {

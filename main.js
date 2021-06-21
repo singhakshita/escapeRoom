@@ -201,14 +201,13 @@ indica.addEventListener("click", () => {
   displayHint(state.indica, 2);
 });
 
-stylus.addEventListener("click", () => {
-  console.log("working");
+stylus.addEventListener("click", (event) => {
+  console.log(event);
   clear();
   mapClear();
   arthaClear();
   setMesasage("Ghantam stylus,used to write on palm manuscripts in old times");
   setTimeout(clearMsg, 1500);
-  console.log("working");
 });
 
 mapKey.addEventListener("click", (event) => {

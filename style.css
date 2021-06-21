@@ -58,17 +58,17 @@
   background: url(./CLUES/coinsBed.png) center/contain;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 17%;
-  left: 52%;
-  width: 100px;
+  bottom: 15%;
+  left: 54%;
+  width: 50px;
   height: 50px;
 }
 .bed__letter {
   background: url("./CLUES/letterBed.png") center/contain;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 20%;
-  left: 30%;
+  bottom: 0;
+  left: 15%;
   width: 150px;
   height: 100px;
 }
@@ -83,22 +83,24 @@
 }
 
 .shelf__yoga {
-  background: url("./CLUES/yogaShelf.png") center/contain;
+  /* background: url("./CLUES/yogaShelf.png") center/contain; */
+  background: rgba(0, 128, 0, 0);
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 20.5%;
-  right: 41%;
-  width: 50px;
-  height: 70px;
+  bottom: 15%;
+  right: 30%;
+  width: 200px;
+  height: 200px;
 }
 .shelf__manu {
-  background: url("./CLUES/shelfManu.png") center/contain;
+  /* background: url("./CLUES/shelfManu.png") center/contain; */
+  background: rgba(0, 128, 0, 0);
   background-repeat: no-repeat;
   position: absolute;
   top: 9%;
-  right: 52%;
-  width: 50px;
-  height: 50px;
+  right: 40%;
+  width: 200px;
+  height: 200px;
 }
 
 .map {

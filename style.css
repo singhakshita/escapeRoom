@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  position: absolute;
+  background: url("./mainAsset/mainRoom.png") center/cover;
+  object-fit: fill;
+  width: 100vw;
+  height: 100vh;
+}
+.main__table {
+  background: url("./assets/table.png") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 0;
+  bottom: 8%;
+  left: 35%;
+  height: 10rem;
+  width: 22rem;
+}
+.main__taxila {
+  background: url(./CLUES/framed/frameTaxila.jpg) center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 16%;
+  left: 52rem;
+  width: 150px;
+  height: 200px;
+}
+.taxila__click {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background-color: rgba(231, 209, 209, 0.171);
+  position: relative;
+  top: 70%;
+  right: 0;
+  left: calc(100% - 16px);
+}
+.main__palace {
+  background: url("./CLUES/framed/framedPalace.jpg") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 20%;
+  left: 70rem;
+  width: 200px;
+  height: 150px;
+}
+.main__balance {
+  background: url("./CLUES/balanceMain.png") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 10%;
+  left: 50rem;
+  width: 200px;
+  height: 150px;
+}
+
+.bed__coins {
+  background: url(./CLUES/coinsBed.png) center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 17%;
+  left: 52%;
+  width: 100px;
+  height: 70px;
+}
+.bed__letter {
+  background: url("./CLUES/letterBed.png") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+  width: 150px;
+  height: 100px;
+}
+.bed__elephant {
+  background: url("./CLUES/elephantBed.png") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  width: 250px;
+  height: 200px;
+}
+
+.shelf__yoga {
+  background: url("./CLUES/yogaShelf.png") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 20%;
+  right: 42%;
+  width: 50px;
+  height: 70px;
+}
+.shelf__manu {
+  background: url("./CLUES/shelfManu.png") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 9%;
+  right: 52%;
+  width: 50px;
+  height: 50px;
+}
+
+.map {
+  background: url("./mainAsset/map.png");
+  background-repeat: no-repeat;
+  object-fit: fill;
+  position: absolute;
+  z-index: 0;
+  width: 300px;
+  height: 170px;
+  bottom: 30%;
+  left: 1rem;
+}
+.map__map {
+  background: url("./mainAsset/quesMap.png") center/cover;
+  object-fit: fill;
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 25%;
+  height: 30rem;
+  width: 35rem;
+}
+.arthashastra {
+  background: url("./mainAsset/arthasashtra.png") center/cover;
+  position: absolute;
+  z-index: 0;
+  width: 25%;
+  height: 5%;
+  bottom: 30%;
+  left: calc(10rem + 20%);
+}
+.artha__expanded {
+  background: url("./mainAsset/expandArtha.png") center/cover;
+  object-fit: fill;
+  position: fixed;
+  z-index: 0;
+  top: 5%;
+  left: 35%;
+  height: 25rem;
+  width: 20rem;
+}
+.indica {
+  background: url("./mainAsset/indica.png") center/cover;
+  position: absolute;
+  z-index: 0;
+  width: 25%;
+  height: 5%;
+  bottom: 35%;
+  left: calc(15rem + 45%);
+}
+.stylus {
+  background: url("./mainAsset/stylus.png") center/cover;
+  position: absolute;
+  z-index: 0;
+  width: 20%;
+  height: 10%;
+  bottom: 40%;
+  right: 10%;
+}
+.modal {
+  height: 15rem;
+  width: 30rem;
+  background-color: #fff;
+  border: 2px solid rgb(94, 89, 89);
+  position: fixed;
+  top: 10%;
+  right: 16px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 2px rgba(37, 37, 37, 0.5);
+}
+.modal__question {
+  margin: 16px 0;
+  text-align: center;
+  padding-left: 8px;
+  font-weight: bolder;
+  font-size: large;
+}
+.modal input {
+  width: 20rem;
+  height: 2rem;
+  border: 1px solid rgb(150, 7, 7);
+  border-radius: 8px;
+}
+.modal__hint {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  font-weight: 900;
+  color: rgb(158, 13, 20);
+  margin-top: 16px;
+  z-index: 2;
+  margin-left: 16px;
+  background-color: beige;
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    75% 75%,
+    75% 100%,
+    50% 75%,
+    0% 75%
+  );
+  box-shadow: 2px 2px 2px 2px rgba(37, 37, 37, 0.5);
+  height: 150px;
+  width: 350px;
+  text-align: center;
+  padding: 1rem, 1rem;
+  justify-content: center;
+}
+.map__circle--set {
+  display: flex;
+  flex-direction: column;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 30%;
+  top: 20%;
+}
+.map__circle {
+  margin: 2px;
+  height: 2rem;
+  width: 2rem;
+  background-color: rgb(184, 199, 194);
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+.artha__circle--set {
+  display: flex;
+  z-index: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  left: 25%;
+  top: 50%;
+}
+.artha__circle {
+  margin: 2px;
+  height: 2rem;
+  width: 2rem;
+  background-color: rgb(184, 199, 194);
+  border-radius: 50%;
+  border: 1px solid black;
+  text-align: center;
+}
+.modal__button {
+  margin: 1rem 0;
+  padding: 8px 16px;
+  background-color: rgb(148, 69, 5);
+  color: #fff;
+  outline: none;
+}
+.button:active,
+.button:hover {
+  background-color: rgb(248, 182, 96);
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.hidden {
+  display: none;
+}
+.hint_image {
+  background: rgba(212, 245, 163, 0.048) center/contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  z-index: 5;
+  top: 15%;
+  left: 50%;
+  /* box-shadow: 2px 2px 2px 2px rgb(22, 21, 21); */
+  display: none;
+  padding: 8px;
+}
+.up {
+  background: url("./mainAsset/up.png") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 0;
+  height: 10%;
+  width: 5%;
+  right: 15%;
+  bottom: 15%;
+}
+.right {
+  background: url("./mainAsset/right.png") center/contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 0;
+  height: 5%;
+  width: 10%;
+  right: 5%;
+  bottom: 15%;
+}
+.down {
+  background: url("./mainAsset/down.png") center/contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 0;
+  height: 10%;
+  width: 7%;
+  right: 15%;
+  bottom: 5%;
+}
+.left {
+  background: url("./mainAsset/left.png") center/contain;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 0;
+  height: 5%;
+  width: 10%;
+  right: 20%;
+  bottom: 15%;
+}
+.clock {
+  background: url("./mainAsset/clock.png") center/contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 5rem;
+  right: 35%;
+  height: 100px;
+  width: 100px;
+}
+@media (min-width: 60rem) {
+  .up {
+    height: 10%;
+    width: 5%;
+    right: 15%;
+    bottom: 20%;
+  }
+  .right {
+    height: 7%;
+    width: 10%;
+    right: 5%;
+    bottom: 15%;
+  }
+  .down {
+    height: 10%;
+    width: 5%;
+    right: 15%;
+    bottom: 5%;
+  }
+  .left {
+    height: 7%;
+    width: 10%;
+    right: 20%;
+    bottom: 15%;
+  }
+}

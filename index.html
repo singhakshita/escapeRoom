@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="modal hidden">
+        <div class="modal__question">
+          Please answer the question or you will be killed
+        </div>
+        <input type="text" id="modal-answer" />
+        <button class="modal__button">submit</button>
+      </div>
+      <div class="hint_image"></div>
+      <div class="modal__hint hidden"></div>
+      <div class="main__table"></div>
+      <div class="main__taxila main-room">
+        <div class="taxila__click"></div>
+      </div>
+      <div class="main__palace main-room"></div>
+      <div class="main__balance main-room"></div>
+
+      <div class="bed__coins bed-room hidden"></div>
+      <div class="bed__letter bed-room hidden"></div>
+      <div class="bed__elephant bed-room hidden"></div>
+
+      <div class="shelf__yoga shelf-room hidden"></div>
+      <div class="shelf__manu shelf-room hidden"></div>
+
+      <div class="move">
+        <div class="up arrow" data-dir="1"></div>
+        <div class="left arrow" data-dir="2"></div>
+        <div class="down arrow" data-dir="3"></div>
+        <div class="right arrow" data-dir="4"></div>
+      </div>
+      <div class="map hidden"></div>
+      <div class="map__map hidden">
+        <div class="map__circle--set">
+          <div class="map__circle" id="1" data-idx="1">1</div>
+          <div class="map__circle" id="2" data-idx="2">2</div>
+          <div class="map__circle" id="3" data-idx="3">3</div>
+          <div class="map__circle" id="4" data-idx="4">4</div>
+        </div>
+      </div>
+      <div class="arthashastra hidden"></div>
+      <div class="artha__expanded hidden">
+        <div class="artha__circle--set">
+          <div class="artha__circle" id="1" data-idx="1">1</div>
+          <div class="artha__circle" id="2" data-idx="2">2</div>
+          <div class="artha__circle" id="3" data-idx="3">3</div>
+          <div class="artha__circle" id="4" data-idx="4">4</div>
+        </div>
+      </div>
+      <div class="indica hidden"></div>
+      <div class="stylus hidden"></div>
+      <div class="clock hidden"></div>
+    </main>
+  </body>
+  <script src="./main.js"></script>
+</html>

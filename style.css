@@ -58,7 +58,7 @@
   background: url(./CLUES/coinsBed.png) center/contain;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 15%;
+  bottom: 10%;
   left: 54%;
   width: 50px;
   height: 50px;
@@ -67,10 +67,10 @@
   background: url("./CLUES/letterBed.png") center/contain;
   background-repeat: no-repeat;
   position: absolute;
-  bottom: 0;
-  left: 15%;
+  bottom: 0px;
+  left: 25%;
   width: 150px;
-  height: 100px;
+  height: 50px;
 }
 .bed__elephant {
   background: url("./CLUES/elephantBed.png") center/contain;
@@ -88,7 +88,7 @@
   background-repeat: no-repeat;
   position: absolute;
   bottom: 15%;
-  right: 30%;
+  right: 35%;
   width: 200px;
   height: 200px;
 }
@@ -97,8 +97,8 @@
   background: rgba(0, 128, 0, 0);
   background-repeat: no-repeat;
   position: absolute;
-  top: 9%;
-  right: 40%;
+  top: 7%;
+  right: 45%;
   width: 200px;
   height: 200px;
 }

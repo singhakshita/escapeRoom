@@ -6,6 +6,21 @@
   width: 100vw;
   height: 100vh;
 }
+.vr__link {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  text-decoration: none;
+  color: rgb(6, 88, 88);
+}
+.vr__link:hover,
+.vr__link:active {
+  background-color: rgb(236, 188, 128);
+  box-shadow: 2px 2px 2px 2px rgba(20, 20, 20, 0.8);
+}
+
 .main__table {
   background: url("./assets/table.png") center/contain;
   background-repeat: no-repeat;

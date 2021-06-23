@@ -40,7 +40,7 @@ const shelfManu = document.querySelector(".shelf__manu");
 const state = {
   presentIndex: 0,
   eventElement: null,
-  answered: 0,
+  answered: 8,
   mapAnswered: 0,
   presentState: 0, // 0 map 1 arthasastra 2 indica 3 stylu
 
